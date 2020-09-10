@@ -191,6 +191,9 @@ WS mode by disabling SSL.
 Install the server (optionally along with hooks) 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Before running ./install.sh make sure pip3 is installed by running: apt-install python3-pip
+
+
 **NOTE** : By default ``install.sh`` moves the ES script to ``/usr/bin``. 
 If your ZM install is elsewhere, like ``/usr/local/bin`` please modify the ``TARGET_BIN`` variable
 in ``install.sh`` before executing it.
